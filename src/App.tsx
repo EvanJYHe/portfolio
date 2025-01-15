@@ -1,15 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
+import Home from './sections/Home';
+import About from './sections/About';
 
 const App: React.FC = () => {
 
   return (
     <>
-      <Navbar/>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div>
+        <Navbar/>
+        <main>
+          <Home/>
+          <About/>
+        </main>
+      </div>
     </>
   );
 };
