@@ -10,39 +10,32 @@ interface ExperienceProps {
 }
 
 const ExperienceItem: React.FC<ExperienceProps> = ({ logo, company, role, dates, description }) => {
-
     return (
-        <div className="flex gap-8 justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-start">
             <div className="flex-shrink-0 flex items-start gap-4">
                 <img
                     src={logo}
-                    className="w-24 h-24 rounded-md flex-shrink-0 object-cover"
+                    className="w-20 h-20 md:w-24 md:h-24 rounded-md flex-shrink-0 object-contain bg-white"
                 />
                 <div>
-                    <h2 className="text-xl font-bold">{company}</h2>
-                    <h3 className="text-lg font-medium">{role}</h3>
-                    <p className="text-sm">{dates}</p>
+                    <h2 className="text-lg md:text-xl font-bold">{company}</h2>
+                    <h3 className="text-base md:text-lg font-medium">{role}</h3>
+                    <p className="text-sm text-gray-600">{dates}</p>
                 </div>
             </div>
-            <p className="text-base">
-                {description}
-            </p>
+            <p className="text-sm md:text-base leading-relaxed">{description}</p>
         </div>
     );
 };
 
-
 const Experiences: React.FC = () => {
-
     return (
-        <div className="flex items-start justify-center min-h-[65vh] w-screen bg-gray-50">
-            <div className="px-8 flex flex-col items-center justify-center md:max-w-7xl mx-auto">
-
-                <h1 className="text-3xl font-bold mb-4 flex items-center gap-4">
-                    <i className="fas fa-briefcase"></i> Experience
+        <div className="flex items-start justify-center min-h-[75vh] w-screen bg-gray-100 p-4 md:p-8">
+            <div className="flex flex-col items-start justify-center md:max-w-5xl w-full mx-auto">
+                <h1 className="text-2xl md:text-3xl font-bold mb-6 flex items-center gap-4">
+                    Experience
                 </h1>
-
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-6">
                     {experienceData.map((exp, index) => (
                         <ExperienceItem
                             key={index}
@@ -54,7 +47,6 @@ const Experiences: React.FC = () => {
                         />
                     ))}
                 </div>
-
             </div>
         </div>
     );
