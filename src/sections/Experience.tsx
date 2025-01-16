@@ -35,8 +35,8 @@ const ExperienceItem: React.FC<ExperienceProps> = ({ logo, company, role, dates,
 const Experiences: React.FC = () => {
 
     return (
-        <div className="flex items-center justify-center min-h-[65vh] w-screen bg-gray-50">
-            <div className="p-8 px-36 flex flex-col items-center justify-center md:max-w-7xl mx-auto border rounded-xl shadow-lg bg-white">
+        <div className="flex items-start justify-center min-h-[65vh] w-screen bg-gray-50">
+            <div className="px-8 flex flex-col items-center justify-center md:max-w-7xl mx-auto">
 
                 <h1 className="text-3xl font-bold mb-4 flex items-center gap-4">
                     <i className="fas fa-briefcase"></i> Experience

@@ -11,7 +11,7 @@ const App: React.FC = () => {
     <>
       <div>
         <Navbar/>
-        <main className="mt-16">
+        <main>
           <Home/>
           <About/>
           <Experiences/>

@@ -1,18 +1,22 @@
 const About: React.FC = () => {
     return (
-        <div className="flex items-center justify-center min-h-[65vh] w-screen bg-gray-50">
-            <div className="p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 md:max-w-7xl mx-auto border rounded-xl shadow-lg bg-white">
+        <div className="flex flex-col items-center justify-center min-h-[65vh] w-screen bg-gray-100 p-6">
+            <h1 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">About Me</h1>
+
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 max-w-5xl w-full">
                 <img
                     src="src/assets/selfie.jpg"
-                    className="w-48 h-48 md:w-80 md:h-80 rounded-full object-cover flex-shrink-0"
+                    className="w-36 h-36 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg flex-shrink-0"
                 />
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-8 text-gray-800">About Me</h1>
-                    <p className="text-lg md:text-xl font-medium mb-8 text-gray-800">
-                        Hi! My name is Evan He, and I'm a student in Management Engineering @ The University of Waterloo.
+                    <p className="text-base sm:text-lg md:text-xl mb-4 px-4 sm:px-8 md:px-0 leading-relaxed">
+                        Hi! I'm Evan He, a Management Engineering student at the University of Waterloo. I'm passionate
+                        about programming, game development, and creating innovative solutions to complex problems.
                     </p>
-                    <p className="text-base md:text-xl font-medium text-gray-800 ">
-                        I like programming, game development, and making random stuff. In my free time I like to read, play badminton, play games, and annoy my cat
+                    <p className="text-sm sm:text-base md:text-lg px-4 sm:px-8 md:px-0 leading-relaxed">
+                        When I'm not coding or studying, you can find me reading a good book, playing badminton,
+                        enjoying video games, or spending time with my cat. I believe in continuous learning and always
+                        strive to expand my skills and knowledge in the ever-evolving world of technology.
                     </p>
                 </div>
             </div>

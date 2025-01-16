@@ -6,7 +6,7 @@ const Home: React.FC = () => {
                     &lt;Evan He&gt;
                 </h1>
                 <p className="text-xl text-gray-300">
-                   Welcome to my website!
+                   Sometimes I make things that work
                 </p>
             </div>
         </div>
