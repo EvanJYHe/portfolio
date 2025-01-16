@@ -1,15 +1,19 @@
 const About: React.FC = () => {
     return (
-        <div className="flex items-center h-screen w-screen">
-            <div className="flex flex-row items-center justify-center gap-8 max-w-5xl mx-auto border-2 shadow-lg">
+        <div className="flex items-center justify-center min-h-[80vh] w-screen">
+            <div className="p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 max-w-7xl mx-aut border rounded-lg shadow-md">
                 <img 
                     src="src/assets/selfie.jpg" 
-                    className="w-80 h-80 rounded-full object-cover flex-shrink-0 shadow-2xl"
+                    className="w-48 h-48 md:w-80 md:h-80 rounded-full object-cover flex-shrink-0"
                 />
-                <div className="flex flex-col items-start">
-                    <h1 className="text-6xl font-bold mb-2">About Me</h1>
-                    <p className="text-2xl font-bold mb-4">dasjdojsadaasdasdasdsadasdasd</p>
-                    <p className="text-1xl">dasjdojsadaasdasdasdsadasdasd</p>
+                <div className="flex flex-col items-center md:items-start text-center md:text-left">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
+                    <p className="text-lg md:text-xl font-medium mb-6">
+                        dasjdojsadaasdasdasdsadasdasddasjdojsadaasdasdasdsadasdasd
+                    </p>
+                    <p className="text-base md:text-lg">
+                        dasjdojsadaasdasdasdsadasdasddasjdojsadaasdasdasdsadasdasd
+                    </p>
                 </div>
             </div>
         </div>
