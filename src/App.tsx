@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <>
       <div>
         <Navbar/>
-        <main>
+        <main className="mt-16">
           <Home/>
           <About/>
         </main>
