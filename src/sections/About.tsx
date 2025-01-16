@@ -1,6 +1,6 @@
 const About: React.FC = () => {
     return (
-        <div className="flex items-center justify-center min-h-[70vh] w-screen">
+        <div className="flex items-center justify-center min-h-[65vh] w-screen">
             <div className="p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 md:max-w-7xl mx-auto border rounded-xl shadow-lg">
                 <img
                     src="src/assets/selfie.jpg"

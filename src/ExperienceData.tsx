@@ -1,13 +1,19 @@
 const experienceData = [
     {
-        title: "Project1",
-        description: "reality labs",
-        media: "",
+        company: "Waterloo Reality Labs",
+        role: "Software Developer",
+        dates: "January 2025 - Present",
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
+        logo: "src/assets/selfie.jpg",
     },
     {
-        title: "Project2",
-        description: "GGG",
-        media: "",
+        company: "Glazing Gorilla Games",
+        role: "Lead Developer",
+        dates: "January 2025 - Present",
+        description:
+            "typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        logo: "src/assets/selfie.jpg",
     },
 ];
 
