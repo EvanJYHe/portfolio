@@ -5,22 +5,22 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto flex justify-between items-center py-4">
                 <ul className="flex space-x-4 text-2xl">
                     <li>
-                        <a href="" className="text-black font-bold">
-                            Evan He
+                        <a href="" className="text-black">
+                            Home
                         </a>
                     </li>
                     <li>
-                        <a href="" className="text-black font-bold">
+                        <a href="" className="text-black">
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a href="" className="text-black font-bold">
+                        <a href="" className="text-black">
                             Skills
                         </a>
                     </li>
                     <li>
-                        <a href="" className="text-black font-bold">
+                        <a href="" className="text-black">
                             Contact
                         </a>
                     </li>
