@@ -1,6 +1,6 @@
 const projectData = [
     {
-        image: "src/assets/OneMillionNotes.png",
+        image: "src/assets/Project/OneMillionNotes.png",
         githubLink: "https://github.com/ShigeoDev/one-million-notes",
         otherLink: "https://dorahacks.io/buidl/21612",
         title: "One Million Notes",
@@ -10,24 +10,44 @@ const projectData = [
         tags: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
     },
     {
-        image: "src/assets/AICamp.png",
+        image: "src/assets/Project/AICamp.png",
         githubLink: "https://github.com/enVId-tech/AI-Camp-Project",
         otherLink: "",
-        title: "Game Dev Tracker",
+        title: "Language Identification Project",
         category: "Personal Project",
         description:
-            "Computer vision project to identify languages using a fine-tuned ResNet-50 model",
+            "Website for a Computer vision project to identify languages using a fine-tuned ResNet-50 model. Has an ~85% accuracy rate.",
         tags: ["React", "Flask", "Python", "PyTorch"],
     },
     {
-        image: "src/assets/AICamp.png",
-        githubLink: "https://github.com/enVId-tech/AI-Camp-Project",
+        image: "src/assets/Project/ForgeFocus.png",
+        githubLink: "https://github.com/EvanJYHe/DSSPlanner",
         otherLink: "",
-        title: "Game Dev Tracker",
+        title: "Forge Focus",
+        category: "School Project",
+        description:
+            "Time/Project Management tool with project tracking, dynamic calendar, automated GPA calculator, and more. Uses Google Gemini’s API to give personalized analysis.",
+        tags: ["Excel", "VBA"],
+    },
+    {
+        image: "src/assets/Project/FinancialPlanner.png",
+        githubLink: "https://github.com/EvanJYHe/FinancePlanner",
+        otherLink: "",
+        title: "Financial Planner",
+        category: "School Project",
+        description:
+            "Financial Planning tool for MSE100 featuring automated expense categorization, spending visualization, goal planning, and financial overview.",
+        tags: ["Excel", "VBA"],
+    },
+    {
+        image: "src/assets/Project/CV-Generator.png",
+        githubLink: "https://github.com/EvanJYHe/cv-generator",
+        otherLink: "",
+        title: "CV-Generator",
         category: "Personal Project",
         description:
-            "Computer vision project to identify languages using a fine-tuned ResNet-50 model",
-        tags: ["React", "Flask", "Python", "PyTorch"],
+            "Created a website to dynamically generate a cleanly formatted resume using Jake's Resume template",
+        tags: ["React", "Tailwind"],
     },
 ];
 
