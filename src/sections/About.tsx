@@ -5,7 +5,7 @@ const About: React.FC = () => {
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 max-w-5xl w-full">
                 <img
-                    src="src/assets/selfie.jpg"
+                    src="/assets/selfie.jpg"
                     className="w-36 h-36 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg flex-shrink-0"
                 />
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">

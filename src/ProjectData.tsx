@@ -1,6 +1,6 @@
 const projectData = [
     {
-        image: "src/assets/Project/OneMillionNotes.png",
+        image: "/assets/Project/OneMillionNotes.png",
         githubLink: "https://github.com/ShigeoDev/one-million-notes",
         otherLink: "https://dorahacks.io/buidl/21612",
         title: "One Million Notes",
@@ -10,7 +10,7 @@ const projectData = [
         tags: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
     },
     {
-        image: "src/assets/Project/AICamp.png",
+        image: "/assets/Project/AICamp.png",
         githubLink: "https://github.com/enVId-tech/AI-Camp-Project",
         otherLink: "",
         title: "Language Identification Project",
@@ -20,7 +20,7 @@ const projectData = [
         tags: ["React", "Flask", "Python", "PyTorch"],
     },
     {
-        image: "src/assets/Project/ForgeFocus.png",
+        image: "/assets/Project/ForgeFocus.png",
         githubLink: "https://github.com/EvanJYHe/DSSPlanner",
         otherLink: "",
         title: "Forge Focus",
@@ -30,7 +30,7 @@ const projectData = [
         tags: ["Excel", "VBA"],
     },
     {
-        image: "src/assets/Project/FinancialPlanner.png",
+        image: "/assets/Project/FinancialPlanner.png",
         githubLink: "https://github.com/EvanJYHe/FinancePlanner",
         otherLink: "",
         title: "Financial Planner",
@@ -40,7 +40,7 @@ const projectData = [
         tags: ["Excel", "VBA"],
     },
     {
-        image: "src/assets/Project/CV-Generator.png",
+        image: "/assets/Project/CV-Generator.png",
         githubLink: "https://github.com/EvanJYHe/cv-generator",
         otherLink: "https://cv-generator-mauve-xi.vercel.app/",
         title: "CV-Generator",
