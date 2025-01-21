@@ -42,11 +42,11 @@ const projectData = [
     {
         image: "src/assets/Project/CV-Generator.png",
         githubLink: "https://github.com/EvanJYHe/cv-generator",
-        otherLink: "",
+        otherLink: "https://cv-generator-mauve-xi.vercel.app/",
         title: "CV-Generator",
         category: "Personal Project",
         description:
-            "Created a website to dynamically generate a cleanly formatted resume using Jake's Resume template",
+            "Project from TOP, Created a website to dynamically generate a cleanly formatted resume using Jake's Resume template",
         tags: ["React", "Tailwind"],
     },
 ];
