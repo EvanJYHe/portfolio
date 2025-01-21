@@ -1,34 +1,34 @@
 const experienceData = [
     {
         company: "Glazing Gorilla Games",
-        role: "Lead Developer",
-        dates: "January 2025 - Present",
+        role: "Co-Founder & Lead Developer",
+        dates: "Aug 2022 – Present",
         description:
-            "typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "Developed a game in with over 2.6 million monthly active users, generating mid-five-figure monthly revenue",
         logo: "src/assets/Experience/GGG Icon.jpeg",
     },
     {
         company: "Waterloo Reality Labs",
         role: "Software Developer",
-        dates: "January 2025 - Present",
+        dates: "Sept 2024 – Present",
         description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+            "Developing a Unity VR software package in C# to allow developers label their GameObjects with descriptions to integrate tutorials, live captioning for accessibility, and virtual assistants",
         logo: "src/assets/Experience/RealityLabs Icon.png",
     },
     {
-        company: "Waterloo Reality Labs",
-        role: "Software Developer",
-        dates: "January 2025 - Present",
+        company: "EdgeHacks",
+        role: "Co-Founder & Co-Director",
+        dates: "Oct 2023 – Jan 2024",
         description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+            "Co-founded and directed a hackathon with 103 participants and 23 completed projects, overseeing event strategy and execution",
         logo: "src/assets/Experience/EdgeHacks Icon.jpeg",
     },
     {
-        company: "Waterloo Reality Labs",
-        role: "Software Developer",
-        dates: "January 2025 - Present",
+        company: "Stem Minds",
+        role: "Web Developer",
+        dates: "Oct 2022 – Jan 2023",
         description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+            "Designed and developed a SKU-generating web application using Flask, HTML, CSS, and Javascript to reduce administrative workload",
         logo: "src/assets/Experience/StemMinds Icon.jpeg",
     },
 ];

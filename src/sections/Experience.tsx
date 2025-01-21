@@ -17,7 +17,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({ logo, company, role, dates,
                     src={logo}
                     className="w-16 h-16 md:w-20 md:h-20 rounded-md flex-shrink-0 object-contain bg-white"
                 />
-                <div>
+                <div className="min-w-[300px]">
                     <h2 className="text-lg md:text-xl font-bold">{company}</h2>
                     <h3 className="text-base md:text-lg font-medium">{role}</h3>
                     <p className="text-sm text-gray-600">{dates}</p>
