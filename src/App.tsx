@@ -5,6 +5,7 @@ import Home from './sections/Home';
 import About from './sections/About';
 import Experiences from './sections/Experience';
 import Project from './sections/Project';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
 
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Experiences/>
           <Project/>
         </main>
+        <Footer/>
       </div>
     </>
   );
