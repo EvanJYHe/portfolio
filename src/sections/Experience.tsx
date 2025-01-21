@@ -15,7 +15,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({ logo, company, role, dates,
             <div className="flex-shrink-0 flex items-start gap-4">
                 <img
                     src={logo}
-                    className="w-20 h-20 md:w-24 md:h-24 rounded-md flex-shrink-0 object-contain bg-white"
+                    className="w-16 h-16 md:w-20 md:h-20 rounded-md flex-shrink-0 object-contain bg-white"
                 />
                 <div>
                     <h2 className="text-lg md:text-xl font-bold">{company}</h2>
@@ -30,7 +30,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({ logo, company, role, dates,
 
 const Experiences: React.FC = () => {
     return (
-        <div className="flex items-start justify-center min-h-[75vh] w-screen bg-gray-100 p-4 md:p-8">
+        <div className="flex items-center justify-center min-h-[75vh] w-screen bg-gray-200 p-4 md:p-8">
             <div className="flex flex-col items-start justify-center md:max-w-5xl w-full mx-auto">
                 <h1 className="text-2xl md:text-3xl font-bold mb-6 flex items-center gap-4">
                     Experience

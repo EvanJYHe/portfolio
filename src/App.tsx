@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './sections/Home';
 import About from './sections/About';
 import Experiences from './sections/Experience';
+import Project from './sections/Project';
 
 const App: React.FC = () => {
 
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           <Home/>
           <About/>
           <Experiences/>
+          <Project/>
         </main>
       </div>
     </>
