@@ -1,4 +1,3 @@
-import { useState } from "react";
 import experienceData from "../ExperienceData";
 
 interface ExperienceProps {
