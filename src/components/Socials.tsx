@@ -26,7 +26,7 @@ const Socials: React.FC = () => {
                 <i className="fa fa-envelope text-white"></i>
             </a>
             <a 
-                href="/assets/Resume.pdf" 
+                href="/Resume.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Resume"
