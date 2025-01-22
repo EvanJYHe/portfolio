@@ -75,29 +75,31 @@ const ProjectItem: React.FC<ProjectProps> = ({ image, title, category, descripti
 
 const Projects: React.FC = () => {
     return (
-        <div className="flex flex-col items-stretch px-4 py-8 mx-auto max-w-[80vw]">
-            <h1 className="text-2xl md:text-3xl font-bold mb-6 flex items-center gap-4">
-                Projects
-            </h1>
-            <Carousel className="mx-auto max-w-full" opts={{ loop: true }}>
-                <CarouselContent>   
-                    {projectData.map((project, index) => (
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/2" key={index}>
-                            <ProjectItem
-                                image={project.image}
-                                title={project.title}
-                                category={project.category}
-                                description={project.description}
-                                tags={project.tags}
-                                githubLink={project.githubLink}
-                                otherLink={project.otherLink}
-                            />
-                        </CarouselItem>
-                    ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-            </Carousel>
+        <div className="w-full">
+            <div className="flex flex-col items-stretch px-4 py-8 mx-auto max-w-[80vw]">
+                <h1 className="text-2xl md:text-3xl font-bold mb-6 flex items-center gap-4">
+                    Projects
+                </h1>
+                <Carousel className="mx-auto max-w-full" opts={{ loop: true }}>
+                    <CarouselContent>
+                        {projectData.map((project, index) => (
+                            <CarouselItem className="md:basis-1/2 lg:basis-1/2" key={index}>
+                                <ProjectItem
+                                    image={project.image}
+                                    title={project.title}
+                                    category={project.category}
+                                    description={project.description}
+                                    tags={project.tags}
+                                    githubLink={project.githubLink}
+                                    otherLink={project.otherLink}
+                                />
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                </Carousel>
+            </div>
         </div>
     )
 }

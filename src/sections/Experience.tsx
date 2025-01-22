@@ -22,7 +22,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({ logo, company, role, dates,
                     <p className="text-sm text-gray-600">{dates}</p>
                 </div>
             </div>
-            <p className="text-sm md:text-base leading-relaxed">{description}</p>
+            <p className="text-base md:text-lg leading-relaxed">{description}</p>
         </div>
     );
 };
