@@ -16,9 +16,10 @@ interface ProjectProps {
     tags: string[]
     githubLink?: string
     otherLink?: string
+    websiteLink?: string
 }
 
-const ProjectItem: React.FC<ProjectProps> = ({ image, title, category, description, tags, githubLink, otherLink, }) => {
+const ProjectItem: React.FC<ProjectProps> = ({ image, title, category, description, tags, githubLink, otherLink, websiteLink }) => {
 
     return (
         <div className="flex flex-col bg-gray-900 text-white rounded-lg shadow-lg p-4 sm:p-6 gap-4 w-full mx-auto">
@@ -58,6 +59,16 @@ const ProjectItem: React.FC<ProjectProps> = ({ image, title, category, descripti
                         GitHub
                     </a>
                 )}
+                {websiteLink && (
+                    <a
+                        href={websiteLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium"
+                    >
+                        Website
+                    </a>
+                )}
                 {otherLink && (
                     <a
                         href={otherLink}
@@ -91,6 +102,7 @@ const Projects: React.FC = () => {
                                     description={project.description}
                                     tags={project.tags}
                                     githubLink={project.githubLink}
+                                    websiteLink={project.websiteLink}
                                     otherLink={project.otherLink}
                                 />
                             </CarouselItem>

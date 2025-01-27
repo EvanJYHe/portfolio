@@ -2,6 +2,7 @@ const projectData = [
     {
         image: "/assets/Project/OneMillionNotes.png",
         githubLink: "https://github.com/ShigeoDev/one-million-notes",
+        websiteLink: "https://www.onemillionnotes.co/",
         otherLink: "https://dorahacks.io/buidl/21612",
         title: "One Million Notes",
         category: "Hackathon Project",
@@ -10,8 +11,20 @@ const projectData = [
         tags: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
     },
     {
+        image: "/assets/Project/GeeseTalk.png",
+        githubLink: "https://github.com/EvanJYHe/GeeseTalk",
+        websiteLink: "https://geese-hacks-project.vercel.app/",
+        otherLink: "https://devpost.com/software/geesetalk",
+        title: "GeeseTalk",
+        category: "Hackathon Project",
+        description:
+            "AI communication coach that analyzes body language, vocal pitch, and speech patterns in real-time during simulated interactions, delivering instant feedback to improve performance in interviews, presentations, and conversations through gamified practice.",
+        tags: ["Next.js", "PostgreSQL", "Tailwind", "Flask", "Neon", "Prisma", "Google Gemini", "ElevenLabs"],
+    },
+    {
         image: "/assets/Project/AICamp.png",
         githubLink: "https://github.com/enVId-tech/AI-Camp-Project",
+        websiteLink: "",
         otherLink: "",
         title: "Language Identification Project",
         category: "Personal Project",
@@ -22,6 +35,7 @@ const projectData = [
     {
         image: "/assets/Project/ForgeFocus.png",
         githubLink: "https://github.com/EvanJYHe/DSSPlanner",
+        websiteLink: "",
         otherLink: "",
         title: "Forge Focus",
         category: "School Project",
@@ -32,6 +46,7 @@ const projectData = [
     {
         image: "/assets/Project/FinancialPlanner.png",
         githubLink: "https://github.com/EvanJYHe/FinancePlanner",
+        websiteLink: "",
         otherLink: "",
         title: "Financial Planner",
         category: "School Project",
@@ -42,7 +57,8 @@ const projectData = [
     {
         image: "/assets/Project/CV-Generator.png",
         githubLink: "https://github.com/EvanJYHe/cv-generator",
-        otherLink: "https://cv-generator-mauve-xi.vercel.app/",
+        websiteLink: "https://cv-generator-mauve-xi.vercel.app/",
+        otherLink: "",
         title: "CV-Generator",
         category: "Personal Project",
         description:
