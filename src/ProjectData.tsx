@@ -7,7 +7,7 @@ const projectData = [
         title: "One Million Notes",
         category: "Hackathon Project",
         description:
-            "A web application I developed for UofTHacks 12, winning Best Beginner Hack out of 128 participating teams.",
+            "A full-stack application I developed for UofTHacks 12, winning Best Beginner Hack out of 128 competing teams. Efficiently renders one million notes on a single page using list virtualization.",
         tags: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
     },
     {
@@ -18,7 +18,7 @@ const projectData = [
         title: "GeeseTalk",
         category: "Hackathon Project",
         description:
-            "AI communication coach that analyzes body language, vocal pitch, and speech patterns in real-time during simulated interactions, delivering instant feedback to improve performance in interviews, presentations, and conversations through gamified practice.",
+            "AI communication coach that analyzes body language, vocal pitch, and speech patterns in real-time simulated interactions to deliver instant feedback to improve speaking skills through gamified practice.",
         tags: ["Next.js", "PostgreSQL", "Tailwind", "Flask", "Neon", "Prisma", "Google Gemini", "ElevenLabs"],
     },
     {
@@ -40,7 +40,7 @@ const projectData = [
         title: "Forge Focus",
         category: "School Project",
         description:
-            "Time/Project Management tool with project tracking, dynamic calendar, automated GPA calculator, and more. Uses Google Gemini’s API to give personalized analysis.",
+            "Time/Project Management tool with project tracking, dynamic calendar, automated GPA calculator, and more. Uses Google Gemini’s analysis to give personalized reports.",
         tags: ["Excel", "VBA"],
     },
     {
@@ -51,7 +51,7 @@ const projectData = [
         title: "Financial Planner",
         category: "School Project",
         description:
-            "Financial Planning tool for MSE100 featuring automated expense categorization, spending visualization, goal planning, and financial overview.",
+            "Financial Planning tool featuring automated expense categorization, spending visualization, goal planning, and financial overview.",
         tags: ["Excel", "VBA"],
     },
     {
