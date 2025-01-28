@@ -29,7 +29,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({ logo, company, role, dates,
 
 const Experiences: React.FC = () => {
     return (
-        <div className="flex items-center justify-center min-h-[75vh] w-screen bg-gray-200 p-4 md:p-8">
+        <div className="flex items-center justify-center min-h-[65vh] w-screen bg-gray-100 p-4 md:p-8">
             <div className="flex flex-col items-start justify-center md:max-w-5xl w-full mx-auto">
                 <h1 className="text-2xl md:text-3xl font-bold mb-6 flex items-center gap-4">
                     Experience

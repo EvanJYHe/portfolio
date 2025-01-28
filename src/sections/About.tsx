@@ -1,6 +1,6 @@
 const About: React.FC = () => {
     return (
-        <div className="flex flex-col items-center justify-center min-h-[50vh] w-screen bg-gray-100">
+        <div className="flex flex-col items-center justify-center min-h-[50vh] w-screen bg-white my-4">
             <h1 className="text-3xl font-bold mb-2 text-gray-800">About Me</h1>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 max-w-5xl w-full">

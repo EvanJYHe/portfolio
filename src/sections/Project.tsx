@@ -27,7 +27,7 @@ const ProjectItem: React.FC<ProjectProps> = ({ image, title, category, descripti
                 <img
                     src={image}
                     alt={title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full hover:scale-105 transition-transform duration-300"
                 />
             </div>
 
@@ -94,26 +94,27 @@ const ProjectItem: React.FC<ProjectProps> = ({ image, title, category, descripti
 
 const Projects: React.FC = () => {
     return (
-        <section className="w-full py-12 md:py-16 lg:py-20">
-            <div className="container px-4 mx-auto">
+        <section className="max-w-full max-h-[100vh] py-12 md:py-16 lg:py-16 mx-auto">
+            <div className="container mx-auto">
                 <h1 className="text-3xl md:text-4xl font-bold mb-8 md:mb-12">
                     Featured Projects
                 </h1>
-                
-                <Carousel opts={{ align: "start", loop: true }} className="w-full">
-                    <CarouselContent className="-ml-4">
+
+                <Carousel opts={{ align: "start", loop: true }} className="max-w-[100vw]">
+                    <CarouselContent className="">
                         {projectData.map((project, index) => (
-                            <CarouselItem 
+                            <CarouselItem
                                 key={index}
-                                className="pl-4 md:basis-1/2 lg:basis-1/3"
+                                className="basis-full md:basis-1/2 lg:basis-1/3 max-w-full"
                             >
                                 <ProjectItem {...project} />
                             </CarouselItem>
                         ))}
+
                     </CarouselContent>
                     <div className="mt-8 flex justify-center gap-4">
-                        <CarouselPrevious className="bg-gray-900 text-white" />
-                        <CarouselNext className="bg-gray-900 text-white" />
+                        <CarouselPrevious className="bg-gray-900 text-white xl:absolute md:static lg:static xs:static static" />
+                        <CarouselNext className="bg-gray-900 text-white xl:absolute md:static lg:static xs:static static" />
                     </div>
                 </Carousel>
             </div>
