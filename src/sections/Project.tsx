@@ -94,7 +94,7 @@ const ProjectItem: React.FC<ProjectProps> = ({ image, title, category, descripti
 
 const Projects: React.FC = () => {
     return (
-        <section className="max-w-full max-h-[100vh] py-12 md:py-16 lg:py-16 mx-auto">
+        <section className="w-[90vw]  max-h-screen py-12 md:py-16 lg:py-16 mx-auto">
             <div className="container mx-auto">
                 <h1 className="text-3xl md:text-4xl font-bold mb-8 md:mb-12">
                     Featured Projects
