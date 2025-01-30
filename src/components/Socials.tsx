@@ -25,14 +25,14 @@ const Socials: React.FC = () => {
             >
                 <i className="fa fa-envelope text-white"></i>
             </a>
-            <a 
+            {/* <a 
                 href="/Resume.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Resume"
             >
                 <i className="fa fa-file text-white"></i>
-            </a>
+            </a> */}
         </div>
     );
 };
